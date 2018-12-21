@@ -177,6 +177,7 @@ It's an exploit based on CVE-2017-7494, which requres a writable Samba share and
 
 `nmap --script smb-enum-shares.nse -p139 192.168.56.101`
 
+```
 PORT    STATE SERVICE
 139/tcp open  netbios-ssn
 MAC Address: 08:00:27:2A:84:65 (Oracle VirtualBox virtual NIC)
